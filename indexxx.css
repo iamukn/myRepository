@@ -1,0 +1,170 @@
+
+body{
+background:linear-gradient(90deg,blue,red);
+color:white;
+font-size:30px
+
+
+
+}
+
+#clickbtn{
+border:1px solid gold;
+background-color:rgba(215,205,210,1);
+}
+#clickbtn:hover{
+color:red;
+
+}
+#home{
+position:relative;
+bottom:680px;
+font-size:30px;
+font-family:'Dancing Script', cursive,sans-serif;
+border:1px solid;
+color:black;
+margin-right:1250px;
+
+}
+
+.box{
+display:flex;
+margin-left:650px;
+
+}
+.balls {
+    border-radius: 50%;
+    background: linear-gradient(
+      35deg,
+      red,
+      lightskyblue
+    );
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+ 
+}
+
+#ball1 {
+    right:60%;
+   animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+margin-right:50%;
+  }
+  #ball2 {
+    left:60%;
+   animation-name: bouncer;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+margin-left:50%;
+
+  }
+
+@keyframes bounce{
+
+50%{right:0px;}
+
+}
+
+@keyframes bouncer{
+
+50%{left:0px;}
+
+opacity:2;
+
+}
+
+.display{
+display:flex;
+margin:10px;
+}
+#jokezzz{
+background:linear-gradient(90deg,blue,red);
+text-align:center;
+display-block;
+margin-top:200px;
+font-size:30px;
+;
+}
+#userIcon{
+width:90px;
+border-radius:3000px;
+}
+
+#flexx{
+background:url("gift.jpg");
+background-size:contain;
+
+border:3px white solid;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+margin-top:40px;
+margin-left:100px;
+margin-right:100px;
+border-radius:30px;
+}
+
+h4{
+font-family:'Satisfy', 'Dancing Script', cursive,sans-serif;
+}
+
+#joke{
+text-align:center;
+margin-top:250px;
+font-family:'Satisfy', 'Dancing Script', cursive,sans-serif;
+font-size:30px
+}
+
+#BCK:hover{
+background-image:url("happy-birthday-gif-candle-balloon-animation.gif")
+}
+#BCK{
+margin-left:auto;
+margin-right:auto;
+margin-top:80px;
+width:400px;
+height:400px;
+border:6px solid white;
+border-radius:10px;
+background-size:cover;
+background-image:url("giftss.jfif")
+
+}
+section{
+transform:scale(0.9);
+}
+
+h4{
+text-align:center;
+font-size:50px;
+margin-top:0;
+}
+
+.gif{
+margin-top:30px
+color:blue;
+width:400px;
+margin-top:150px;
+border-radius:30px;
+}
+
+#btn:hover{
+background:brown;
+color:white;
+transform:scale(1.1);
+
+}
+
+#btn{
+border-radius:30px;
+background-color:white;
+border:5px solid;
+}
+.shadow{
+margin-top:0px;
+text-shadow:0px 0px 5px maroon;
+}
